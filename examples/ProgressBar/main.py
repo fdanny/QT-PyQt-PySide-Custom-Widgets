@@ -8,7 +8,7 @@
 ## IMPORTS
 ########################################################################
 import sys
-from PySide2.QtCore import *
+from PySide6.QtCore import *
 
 ########################################################################
 # IMPORT GUI FILE

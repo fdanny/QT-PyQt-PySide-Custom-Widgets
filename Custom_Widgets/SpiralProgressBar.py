@@ -12,9 +12,9 @@
 #############################################################################################
 
 
-from PySide2 import QtWidgets, QtCore
-from PySide2.QtCore import Qt, QSize
-from PySide2.QtGui import QBrush, QColor, QPainter, QPen, QPaintEvent, QFont
+from PySide6 import QtWidgets, QtCore
+from PySide6.QtCore import Qt, QSize
+from PySide6.QtGui import QBrush, QColor, QPainter, QPen, QPaintEvent, QFont
 
 class spiralProgressBar(QtWidgets.QWidget):
 

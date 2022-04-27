@@ -23,16 +23,16 @@ import sys
 import math
 
 try:
-    from PySide2.QtWidgets import QMainWindow, QWidget, QApplication
+    from PySide6.QtWidgets import QMainWindow, QWidget, QApplication
 
-    from PySide2.QtGui import QPolygon, QPolygonF, QColor, QPen, QFont, QPainter, QFontMetrics, QConicalGradient, QRadialGradient, QFontDatabase
+    from PySide6.QtGui import QPolygon, QPolygonF, QColor, QPen, QFont, QPainter, QFontMetrics, QConicalGradient, QRadialGradient, QFontDatabase
 
-    from PySide2.QtCore import Qt ,QTime, QTimer, QPoint, QPointF, QRect, QSize, QObject
+    from PySide6.QtCore import Qt ,QTime, QTimer, QPoint, QPointF, QRect, QSize, QObject
 
-    from PySide2.QtCore import Signal
+    from PySide6.QtCore import Signal
 
 except:
-    print("Error while importing PySide2")
+    print("Error while importing PySide6")
     exit()
 
 ################################################################################################

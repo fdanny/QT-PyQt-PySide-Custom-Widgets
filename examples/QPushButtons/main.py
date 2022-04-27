@@ -10,7 +10,7 @@
 import sys
 import iconify as ico
 from iconify.qt import QtGui, QtWidgets, QtCore
-from PySide2.QtCore import *
+from PySide6.QtCore import *
 
 ########################################################################
 # IMPORT GUI FILE

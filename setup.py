@@ -27,9 +27,7 @@ setup(
     # download_url = 'https://github.com/user/reponame/archive/v_01.tar.gz',    # I explain this later on
     keywords = ['PySide', 'PyQt', 'animation', 'custom', 'widgets', "QML", "C++", "QT Creator"],   # Keywords that define your package best
     install_requires=[
-        "PySide2",
-        "PyQt5",
-        "iconify",
+        "PySide6",
         "cairosvg",
         "qtsass",
         "matplotlib",
